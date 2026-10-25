@@ -1,0 +1,23 @@
+
+# Maven build output
+target/
+
+# Eclipse workspace and project-generated files
+.metadata/
+.settings/
+bin/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Local environment configuration and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+db.properties
+
+# OS-generated files
+.DS_Store
+Thumbs.db
